@@ -1,0 +1,62 @@
+.cards {
+    background:#FFFFFF;
+}
+.cards h2 {
+    font-size: 32px;
+    line-height: 1.19;
+    text-align: center;
+    color: #000000;
+    padding-top: 95px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.cards q {
+    font-size: 18px;
+    line-height: 1.34;
+    color: #000000;
+    margin-top: 23px;
+    display: block;
+    text-align: center;
+}
+.gifts {
+    width: 1170px;
+    margin-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+.gifts img {
+    width: 270px;
+    height: 270px;
+}
+.gifts h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    color: #000000;
+    margin-top: 24px;
+    margin-bottom: 75px;
+    padding-left: 24px;
+}
+.gifts a {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #000000;
+    padding-left: 24px;
+}
+.gift-cards {
+    width: 270px;
+    height: 436px;
+    background: #FAFAFA;
+    margin-bottom: 137px;
+
+}
+.gift-cards:hover {
+    background: #FFFFFF;
+    filter:drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
+}
+

@@ -1,0 +1,80 @@
+footer {
+    background: #FAFAFA;
+}
+.last-footlist {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.last-footlist::after {
+    width: 1000px;
+    display: block;
+    content: '';
+    border: 1px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    text-align: center;
+    margin-top: 45px;
+}
+.last-footlist ul {
+    width: 615px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.last-footlist a {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000000;
+}
+.icons {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icons ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+}
+.icons li {
+    margin-top: 55px;
+    margin-right: 24px;
+    margin-bottom: 72px;
+}
+.icons li:last-child {
+    margin-right: 0px;
+}
+.conditions {
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.conditions ul {
+    padding-left: 0px;
+}
+.conditions span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 35px;
+}
